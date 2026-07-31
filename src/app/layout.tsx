@@ -16,6 +16,28 @@ export const metadata: Metadata = {
     statusBarStyle: "black-translucent",
     title: cardConfig.pwa.shortName,
   },
+  // Meta tags OG para preview en WhatsApp/Facebook/LinkedIn
+  openGraph: {
+    type: "website",
+    url: "https://wmite.jimbra.net",
+    title: cardConfig.name,
+    description: cardConfig.quote,
+    siteName: cardConfig.name,
+    images: [
+      {
+        url: "/images/wellington-profile.jpg",
+        width: 600,
+        height: 600,
+        alt: cardConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: cardConfig.name,
+    description: cardConfig.quote,
+    images: ["/images/wellington-profile.jpg"],
+  },
 }
 
 export const viewport: Viewport = {

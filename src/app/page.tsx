@@ -8,6 +8,8 @@ import { LinkButtons } from "@/components/LinkButtons"
 import { ISMISASection } from "@/components/ISMISASection"
 import { QRCodeSection } from "@/components/QRCodeSection"
 import { SaveContactButton } from "@/components/SaveContactButton"
+import { ShareButton } from "@/components/ShareButton"
+import { PWAInstall } from "@/components/PWAInstall"
 import { Footer } from "@/components/Footer"
 
 export default function Home() {
@@ -26,6 +28,9 @@ export default function Home() {
 
         {/* Stats */}
         <StatsSection />
+
+        {/* Share Button */}
+        <ShareButton />
 
         {/* Divider */}
         <div className="h-px bg-gradient-to-r from-transparent via-[#FFD700]/30 to-transparent mx-8 my-4" />
@@ -47,6 +52,9 @@ export default function Home() {
 
         {/* Save Contact */}
         <SaveContactButton />
+
+        {/* PWA Install */}
+        <PWAInstall />
 
         {/* Footer */}
         <Footer />
