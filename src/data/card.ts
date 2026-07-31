@@ -3,20 +3,19 @@ export const cardConfig = {
   title: "✦ Ingeniero & Experto en Ventas ✦",
   quote: "La pasión es la clave del éxito",
   marqueeText: "Liderazgo✦Ventas✦Estrategia✦Resultados✦Excelencia✦Compromiso✦Visión✦Crecimiento✦Ingeniería✦Negociación✦",
-  profileImage: "/images/wellington-profile.png",
+  profileImage: "/images/wellington-profile.jpg",
   whatsapp: "593998791348",
   whatsappMessage: "Hola Wellington, vi tu tarjeta digital y quiero contactarte",
 
-  // Links personales
+  // Links personales de Wellington (SIN Instagram duplicado)
   personalLinks: [
     { label: "WhatsApp", url: "https://wa.me/593998791348?text=Hola%20Wellington%2C%20vi%20tu%20tarjeta%20digital%20y%20quiero%20contactarte", icon: "message-circle", primary: true },
     { label: "Email", url: "mailto:wellfamite@gmail.com", icon: "mail" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/wellington-mite-251871b7/", icon: "linkedin" },
-    { label: "Instagram", url: "https://www.instagram.com/ismisarooftop", icon: "instagram" },
     { label: "TikTok Personal", url: "https://www.tiktok.com/@wellingtonmitec", icon: "music" },
   ],
 
-  // ISMISA - Bar Karaoke
+  // ISMISA - Bar Karaoke (Instagram va aquí)
   ismisa: {
     name: "ISMISA",
     tagline: "Bar Karaoke & Experiencias",
