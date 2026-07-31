@@ -1,7 +1,7 @@
 {
   "name": "Wellington Mite - Ingeniero & Experto en Ventas",
   "short_name": "Wellington Mite",
-  "description": "Ingeniero y experto en ventas. La excelencia es mi est\u00e1ndar.",
+  "description": "Ingeniero & Experto en Ventas. La pasi\u00f3n es la clave del \u00e9xito.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0A0A0A",
@@ -11,12 +11,20 @@
     {
       "src": "/images/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/images/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "categories": [
+    "business",
+    "productivity"
+  ],
+  "lang": "es",
+  "dir": "ltr"
 }

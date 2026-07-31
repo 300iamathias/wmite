@@ -21,17 +21,22 @@ export function ISMISASection() {
   const ismisa = cardConfig.ismisa
 
   return (
-    <div className="py-6 px-5 max-w-md mx-auto">
+    <div className="py-8 px-5 max-w-md mx-auto">
       {/* Header ISMISA */}
-      <div className="flex items-center gap-3 mb-4">
+      <div className="flex items-center gap-3 mb-5">
         <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#FFD700]/20 to-[#FFD700]/5 border border-[#FFD700]/20 flex items-center justify-center text-2xl shadow-[0_0_20px_rgba(255,215,0,0.1)]">
-          🏔️
+          🎤
         </div>
         <div>
           <h3 className="text-white font-bold text-base">{ismisa.name}</h3>
           <p className="text-[#FFD700]/70 text-[11px] tracking-wider uppercase">{ismisa.tagline}</p>
         </div>
       </div>
+
+      {/* Descripción */}
+      <p className="text-white/50 text-xs leading-relaxed mb-5 text-center">
+        {ismisa.description}
+      </p>
 
       {/* Links ISMISA */}
       <div className="flex flex-col gap-2.5">
@@ -44,7 +49,7 @@ export function ISMISASection() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group flex items-center gap-3.5 px-4 py-3.5 rounded-xl font-medium text-sm border transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] ${colorClass}`}
+              className={`group flex items-center gap-3 px-4 py-3 rounded-xl font-medium text-sm border transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] ${colorClass}`}
             >
               <Icon className="w-5 h-5 flex-shrink-0" />
               <span className="flex-1">{link.label}</span>
