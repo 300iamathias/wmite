@@ -8,9 +8,14 @@ export function Footer() {
       <p className="text-white/20 text-[10px]">
         {cardConfig.name} • Ecuador • {new Date().getFullYear()}
       </p>
-      <p className="text-white/10 text-[9px] mt-1">
-        Hecho con ✦ por Jimbra
-      </p>
+      <a 
+        href="https://jimbra.net" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-white/10 text-[9px] mt-1 inline-block hover:text-[#FFD700]/40 transition-colors duration-300"
+      >
+        Desarrollado por <span className="text-[#FFD700]/20 hover:text-[#FFD700]/50 transition-colors">Jimbra</span>
+      </a>
     </footer>
   )
 }
